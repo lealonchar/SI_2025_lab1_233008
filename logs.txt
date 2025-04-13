@@ -1,0 +1,21 @@
+* df53d94 (HEAD -> master, origin/master, origin/HEAD, origin/6-find-the-highest-priority-unfi
+nished-task, 6-find-the-highest-priority-unfinished-task) Implemented find the highest priorit
+y unfinished task
+*   71c91ff Merge branch 'master' of https://github.com/lealonchar/SI_2025_lab1_233008
+|\
+| *   4a7c1ca Merge pull request #11 from lealonchar/8-mark-a-task-as-completed-by-name
+| |\
+| | * af83864 (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name)
+Implemented mark a task as completed by name
+| * |   c4fdef8 Merge pull request #12 from lealonchar/1-remove-a-task-by-name
+| |\ \
+| | |/
+| |/|
+| | * 89232ef (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implemented remove a t
+ask by name
+| |/
+* / 9d1a60d (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Implemented count
+tasks per category
+|/
+* cc5c13e Add starter code
+* e5c4cc5 Initial commit

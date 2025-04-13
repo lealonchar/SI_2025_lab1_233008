@@ -1,0 +1,33 @@
+4. 
+mkdir SI_2025_lab1_233008
+cd SI_2025_lab1_233008
+git init
+
+5. 
+git remote add origin https://github.com/lealonchar/SI_2025_lab1_233008.git
+
+6.
+nano README.md
+git add README.md
+git commit -m "Initial commit"
+
+7.
+git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+
+8.
+git push -u origin master
+
+14.
+git checkout 6-find-the-highest-priority-unfinished-task
+
+16.
+git -a commit -m "Implemented find the huighest priority unfinished task"
+
+17.
+git push origin 6-find-the-highest-priority-unfinished-task
+
+21.
+git checkout master
+git merge 6-find-the-highest-priority-unfinished-task
+ 
