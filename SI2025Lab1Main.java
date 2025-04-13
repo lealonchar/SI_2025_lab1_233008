@@ -101,10 +101,16 @@ class TaskManager {
         return new HashMap<>();
     }
 
-    // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
-        // TODO: Implement completion logic
+    for (Task task : tasks) {
+        if (task.getName().equalsIgnoreCase(name)) {
+            task.complete();
+            System.out.println("Task \"" + name + "\" marked as completed.");
+            return;
+        }
     }
+   
+}
 
     // 9. Mark all tasks in a category as completed
     public void markCategoryCompleted(String category) {
